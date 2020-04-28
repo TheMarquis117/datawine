@@ -1,0 +1,93 @@
+/* style.css */
+body {
+  margin: 0px;
+  background: rgb(240, 240, 240);
+  color: rgb(20, 20, 20);
+  font-family: Helvetica, sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Courier;
+  font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+  font-size: 24px;
+  color: #6A71E1;
+}
+a {
+  color: #6A71E1;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/latour2.png");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  color: white;
+  background: #6772e5;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 10px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+img{
+  width: 300px;
+  border-radius: 8px;
+}
