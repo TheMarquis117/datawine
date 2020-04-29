@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   background: rgb(240, 240, 240);
-  color: rgb(20, 20, 20);
+  color: #6A71E1;
   font-family: Helvetica, sans-serif;
 	font-size: 18px;
   font-weight: lighter;
@@ -15,7 +15,7 @@ h1 {
 	font-size: 40px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   color: #6A71E1;
 }
 a {
@@ -57,10 +57,10 @@ a:hover {
 }
 
 .card-white {
-  background-color: white;
-  border-radius: 4px;
+  background-color: transparent;
+  border-radius: 0px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  box-shadow: 0 0px 0px rgba(50,50,93,.11);
   padding: 16px;
   margin: 16px 10px;
 }
