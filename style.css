@@ -1,7 +1,7 @@
 /* style.css */
 body {
   margin: 0px;
-  background: rgb(240, 240, 240);
+  background: rgb(200, 200, 200);
   color: #6A71E1;
   font-family: Helvetica, sans-serif;
 	font-size: 18px;
@@ -56,6 +56,10 @@ a:hover {
   color: white;
 }
 
+.row {
+  text-align: center;
+}
+
 .card-white {
   background-color: transparent;
   border-radius: 0px;
@@ -63,11 +67,17 @@ a:hover {
   box-shadow: 0 0px 0px rgba(50,50,93,.11);
   padding: 16px;
   margin: 16px 10px;
+  padding-left: 70px;
 }
 .card-white img {
   margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
 }
 
+.container {
+  text-align: center;
+}
 .footer {
   background-color: black;
   padding: 24px;
@@ -80,7 +90,7 @@ a:hover {
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 8px;
 }
 .list-inline li {
   display: inline;
